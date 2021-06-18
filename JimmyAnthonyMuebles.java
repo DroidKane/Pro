@@ -231,8 +231,9 @@ public class JimmyAnthonyMuebles {
   public static void leer_Pedidos(){
     System.out.println("*************************************");
     System.out.println("**   Pedidos   **");
+    int cont=1;
     for (String string : reg_datos_usuario) {
-      System.out.println(string);
+      System.out.println(cont+": "+string);
     }
   }
 }
