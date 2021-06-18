@@ -88,7 +88,7 @@ public class JimmyAnthonyMuebles {
             break;
           default:
             System.out.println("\n");
-            System.out.println("\u001B[31m" + "Error, solo números entre el 1 al 3." + "\u001B[0m");
+            System.out.println("\u001B[31m" + "Error, solo números entre el 1 al 5." + "\u001B[0m");
             System.out.println("\n\n\n");
             sc.nextLine();
             break;
