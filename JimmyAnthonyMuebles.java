@@ -72,16 +72,16 @@ public class JimmyAnthonyMuebles {
 
         switch (op) {
           case 1:
-            //leer_Pedidos();
+            leer_Pedidos();
             break;
           case 2:
-            //revisar_Pedidos();
+            revisar_Pedidos();
             break;
           case 3:
-            //procesar_Pedidos();
+            procesar_Pedidos();
             break;
           case 4:
-            //consultas();
+            consultas();
             break;
           case 5:
             menu();
@@ -228,12 +228,35 @@ public class JimmyAnthonyMuebles {
       }
     }
   }
+  
+  //Metodos del admin
+  /**
+   * Muestra los pedidos
+   */
   public static void leer_Pedidos(){
     System.out.println("*************************************");
-    System.out.println("**   Pedidos   **");
+    System.out.println("**   Leer Pedidos   **");
     int cont=1;
     for (String string : reg_datos_usuario) {
       System.out.println(cont+": "+string);
     }
+  }
+
+  public static void revisar_Pedidos(){
+    System.out.println("*************************************");
+    System.out.println("**   Revisar Pedidos   **");
+
+  }
+  
+  public static void procesar_Pedidos(){
+    System.out.println("*************************************");
+    System.out.println("**   Procesar Pedidos   **");
+
+  }
+
+  public static void consultas(){
+    System.out.println("*************************************");
+    System.out.println("**   Consultas Pedidos   **");
+
   }
 }
